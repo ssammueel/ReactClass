@@ -10,12 +10,12 @@ function App() {
     { name: "tanzania", capital: "daresalaam", pop: "3m" }
   ]);
 
-  function loadNewCounries()
+  function loadNewNations()
   {
     setNations([
-      { name: "kena", capital: "nairobi", pop: "2m" },
-      { name: "ugan\da", capital: "kigali", pop: "4m" },
-      { name: "tanzqjwania", capital: "daresalaam", pop: "3m" }
+      { name: "southAfrica", capital: " Johannesburg", pop: "59m" },
+      { name: "zambia", capital: "Lusaka", pop: "19m" },
+      { name: "singapo", capital: "Singapura", pop: "5m" }
     ])
   }
 
@@ -23,10 +23,8 @@ function App() {
     <div>
       <h1>Main component</h1>
 
-      {
-        isLoggedIn == true? (<h1>welcone user</h1>) : (<h1>you are logger in </h1>)
-      }
-      <button onClick={loadNewCounries}>Get new Countries</button>
+     
+      <button onClick={loadNewNations}>Get new Countries</button>
 
       {
       //  map will illeterate through the array and then return the values 
