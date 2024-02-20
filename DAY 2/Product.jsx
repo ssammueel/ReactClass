@@ -9,8 +9,10 @@ const School = () => {
     
     useEffect(()=>{
         console.log("mounted sucessful")
-    })
+    },[age])
 
+    //[] means the the mounting will be the dependancy to he called alone
+    //the mounting ang the age are the only dependencis that the effect will deend upon
 
   return (
     <div className="products">
