@@ -3,12 +3,16 @@ import Nation from './Nation';
 import { useState } from 'react'; // Import the useState hook from React
 
 function App() {
+
+  let[logged, setlogged] = useState(false)
+
   // Initialize state using the useState hook
-  const [nations, setNations] = useState([
+  let [nations, setNations] = useState([
     { name: "kenya", capital: "nairobi", pop: "2m" },
     { name: "uganda", capital: "kigali", pop: "4m" },
     { name: "tanzania", capital: "daresalaam", pop: "3m" }
   ]);
+
 
   function loadNewNations()
   {
@@ -19,19 +23,30 @@ function App() {
     ])
   }
 
+function logIn(){
+  setlogged(true)
+}
   return (
     <div>
       <h1>Main component</h1>
 
-     
       <button onClick={loadNewNations}>Get new Countries</button>
 
-      {
-      //  map will illeterate through the array and then return the values 
+     {
+      logged == true? ( 
+        
         nations.map((nation) => (
-          <Nation  name={nation.name} capital={nation.capital} pop={nation.pop} />
-        ))
-      }
+        <Nation  name={nation.name} capital={nation.capital} pop={nation.pop} />
+      ))
+     
+      ) 
+      : (<h1>you are unlogged please log</h1>)
+     }
+      
+
+      <button onClick={logIn}>log in</button>
+
+      
     </div>
   );
 }
