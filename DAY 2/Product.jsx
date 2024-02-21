@@ -9,6 +9,10 @@ const School = () => {
     
     useEffect(()=>{
         console.log("mounted sucessful")
+
+        return()=>{
+            console.log("componet gone")
+        }
     },[age])
 
     //[] means the the mounting will be the dependancy to he called alone
