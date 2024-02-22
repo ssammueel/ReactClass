@@ -1,0 +1,1 @@
+we also have dom manipulation in the react but should be used wisely
