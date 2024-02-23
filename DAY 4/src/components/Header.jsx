@@ -4,6 +4,10 @@ import{Link} from "react-router-dom"
 const Header = () => {
   return (
     <>
+        <section className="header">
+          <div className="logo">
+            <h1>Global product</h1>
+          </div>
         <nav className="nav">
           <ul>
             <li>
@@ -21,6 +25,11 @@ const Header = () => {
             
           </ul>
         </nav>
+
+        <div className="contact">
+          <button>contact us</button>
+        </div>
+        </section>
     </>
   )
 }
