@@ -14,11 +14,7 @@ const Childprod = () => {
         exported.setUserName("mumo");
         
       }}>change name</button>
-
-{/* changing the school */}
-      <button onClick={()=>{
         
-      }}>change school</button>
       </div>  
   )
 }
