@@ -1,7 +1,12 @@
 const Image = () => {
   return (
     <>
-    <h2>the image</h2>
+    <div className="img">
+      <div className="i">Image 1</div>
+      <div className="i">Image 2</div>
+      <div className="i">Image 3</div>
+      <div className="i">Image 4  </div>
+    </div>
     </>
   )
 }
