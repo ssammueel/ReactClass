@@ -1,0 +1,43 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app
+{
+  background-color: blue;
+  width: fit-content;
+  padding: 30px;
+}
+.school
+{
+  width: 300px;
+  background-color: rgb(163, 163, 27);
+  padding: 20px;
+}
+.student
+{
+  width: 300px;
+  background-color: rgb(17, 214, 149);
+  padding: 20px;
+}
+.course
+{
+  width: 300px;
+  background-color: rgb(238, 37, 137);
+  padding: 20px;
+}
+
+.product
+{
+  padding: 20px;
+  width: fit-content;
+  background-color: lightblue;
+}
+.child
+{
+  padding: 20px;
+  width: fit-content;
+  background-color: lightcoral; 
+}
