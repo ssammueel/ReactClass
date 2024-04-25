@@ -25,3 +25,12 @@
 
 ***example***
 
+![Screenshot (438)](https://github.com/ssammueel/ReactClass/assets/124765323/0cd0ec87-a317-4074-9e65-ba7f2f661de0)
+
+### component unmountion
+
+- when a component is removed useeffect is called
+
+  ***example***
+
+  
