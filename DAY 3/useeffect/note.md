@@ -51,8 +51,8 @@
 
 ### 2. variable in dependancy array
 
-- when we pass variables in a dependancy array, thenever the variable change the useeffect is alos called called
-- and so it will be first called when the component mounts and when it unmounts
+- when we pass variables in a dependancy array, thenever the variable change the useeffect is also called 
+- and so it will be first called when the component mounts and when the variable in the dependancy array changes
 
 ***exaple***
 
