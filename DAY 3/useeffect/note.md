@@ -11,7 +11,7 @@
 
 - each component has its own useeffect
 
-### component mounting
+### 1. component mounting
 
 - whenever a component loads fot the first time
 
@@ -19,7 +19,7 @@
 
 ![Screenshot (434)](https://github.com/ssammueel/ReactClass/assets/124765323/ab00f557-fcd0-4906-8169-3446c904f6c6)
 
-### component updation
+### 2. component updation
 
 - whenever a component is being updated
 
@@ -27,7 +27,7 @@
 
 ![Screenshot (438)](https://github.com/ssammueel/ReactClass/assets/124765323/0cd0ec87-a317-4074-9e65-ba7f2f661de0)
 
-### component unmountion
+### 3. component unmountion
 
 - when a component is removed useeffect is called
 
@@ -38,7 +38,7 @@
 
 ### other
 
-### dependancy array
+### 1. dependancy array
 
 - since useeffect is called for the first render and and rerender
 - if i want to call it only when my component mounts
@@ -49,12 +49,12 @@
 ![Screenshot (440)](https://github.com/ssammueel/ReactClass/assets/124765323/6ae82685-5024-4c9b-89e3-6f8052ab5656)
 
 
-### variable in dependancy array
+### 2. variable in dependancy array
 
 - when we pass variables in a dependancy array, thenever the variable change the useeffect is alos called called
 - and so it will be first called when the component mounts and when it unmounts
 
 ***exaple***
 
+![Screenshot (441)](https://github.com/ssammueel/ReactClass/assets/124765323/bf632e8e-2348-46ea-89e8-3de370e1bd51)
 
-- 
