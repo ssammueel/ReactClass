@@ -16,4 +16,12 @@
 - whenever a component loads fot the first time
 
 ***example***
+
 ![Screenshot (434)](https://github.com/ssammueel/ReactClass/assets/124765323/ab00f557-fcd0-4906-8169-3446c904f6c6)
+
+### component updation
+
+- whenever a component is being updated
+
+***example***
+
