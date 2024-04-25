@@ -35,3 +35,12 @@
 
   ![Screenshot (439)](https://github.com/ssammueel/ReactClass/assets/124765323/77d0fad5-9c1d-4d4d-a44d-28161488407f)
 
+
+### other
+
+- since useeffect is called for the first render and and rerender
+- if i want to call it only when my component mounts
+- Dependecy array is used []
+
+***Example***
+
