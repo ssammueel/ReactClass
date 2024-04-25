@@ -38,6 +38,8 @@
 
 ### other
 
+### dependancy array
+
 - since useeffect is called for the first render and and rerender
 - if i want to call it only when my component mounts
 - Dependecy array is used []
@@ -45,3 +47,14 @@
 ***Example***
 
 ![Screenshot (440)](https://github.com/ssammueel/ReactClass/assets/124765323/6ae82685-5024-4c9b-89e3-6f8052ab5656)
+
+
+### variable in dependancy array
+
+- when we pass variables in a dependancy array, thenever the variable change the useeffect is alos called called
+- and so it will be first called when the component mounts and when it unmounts
+
+***exaple***
+
+
+- 
