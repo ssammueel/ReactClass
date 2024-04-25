@@ -58,3 +58,10 @@
 
 ![Screenshot (441)](https://github.com/ssammueel/ReactClass/assets/124765323/bf632e8e-2348-46ea-89e8-3de370e1bd51)
 
+#### uses
+
+1. Fetching data from APIS
+2. handling scroll Effect
+3. managing timer events and intervals
+4. updating document title
+5. san be useful when updating site
