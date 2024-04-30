@@ -23,3 +23,15 @@
       copyanimals.push("deer")
       setanimals(copyanimals)
       }
+
+### [name, setname]  :SetName⚛️
+
+- setname san also take a  function as an argument
+- the return will the new value 
+- 
+***example***
+
+            setname((prev)=>{
+              console.log(prev)
+        return "samuel"
+              }
