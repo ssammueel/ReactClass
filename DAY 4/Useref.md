@@ -9,8 +9,12 @@ UseRef are used in this case
          var name = useref("samuel)
 
 -here the variable does not hold the value directly
+
 -it is created as a object with current
 
           {current : "samuel"}
 
-- incase i want a variable that can be changed and the changes are to remain and it should couse no rerender then useref are the best to use
+-incase i want a variable that can be changed and the changes are to remain and it should couse no rerender then useref are the best to use
+
+### DOM MANIPULATION
+-they can also be used in dom manipulation
