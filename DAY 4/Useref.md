@@ -3,13 +3,13 @@
 * **state variables** - Value persists but causes rerender
 * **normal variables** - value does not persist and does not couse reerende
 
-- now in this casa i want to use a variable that doesn't couse rerender but value persists
-- UseRef are used in this case
+now in this casa i want to use a variable that doesn't couse rerender but value persists
+UseRef are used in this case
 
          var name = useref("samuel)
 
-- here the variable does not hold the value directly
-- it is created as a object with current
+-here the variable does not hold the value directly
+-it is created as a object with current
 
           {current : "samuel"}
 
